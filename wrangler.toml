@@ -1,5 +1,8 @@
 # Cloudflare Pages - Feng Chen Academic CV
-# Deploy: npx wrangler pages deploy . --project-name=fengchen-cv
+# Deploy: npx wrangler deploy
 
 name = "fengchen-cv"
 compatibility_date = "2025-01-01"
+
+[assets]
+directory = "."
